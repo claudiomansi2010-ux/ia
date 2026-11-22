@@ -1,0 +1,27 @@
+TALLER DE HARDWARE - ETAPA 4
+
+ARCHIVOS
+- main.py: interfaz grafica de Tkinter.
+- CRUD.py: operaciones de la base de datos.
+- conexion.py: conexion con MySQL de XAMPP.
+
+NOVEDADES
+- Inventario de componentes en caja y en computadoras.
+- Filtros por ubicacion, categoria y estado.
+- Alta de componentes nuevos.
+- Modificacion y eliminacion de componentes que estan en caja.
+- Validacion de campos obligatorios.
+
+IMPORTANTE
+Los componentes instalados en una PC no se pueden modificar ni eliminar desde el inventario.
+Primero hay que devolverlos a la caja desde la seccion Computadoras.
+Las operaciones SQL permanecen en CRUD.py.
+
+INSTALACION
+1. Descomprimir la carpeta.
+2. Iniciar Apache y MySQL desde XAMPP.
+3. Verificar que la base taller_hardware_inventario este importada en phpMyAdmin.
+4. Instalar el conector si hace falta: py -m pip install mysql-connector-python
+5. Ejecutar: py main.py
+
+Los tres archivos principales deben permanecer juntos en la misma carpeta.
